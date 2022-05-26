@@ -1,0 +1,281 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Hola, amigo"
+      ],
+      "responses": [
+        "Hello, thanks for visiting",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What hours are you open?",
+        "What are your hours?",
+        "When are you open?",
+        "Are you guys open now"
+      ],
+      "responses": [
+        "We're open every day 9am-9pm",
+        "Our hours are 9am-9pm every day"
+      ]
+    },
+    {
+      "tag": "cars",
+      "patterns": ["Which cars do you have?", "What kinds of cars are there?"],
+      "responses": [
+        "We rent sedan, jeep and taxi",
+        "We have jeep, sedan and taxi"
+      ]
+    },
+    {
+      "tag": "bikes",
+      "patterns": [
+        "Which bike do you have?",
+        "What kinds of fancy bike are there?"
+      ],
+      "responses": [
+        "We rent sports bike, touring and cruiser",
+        "We have harley for cruiser and touring, for sports yamaha is available"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Are you cash only?",
+        "Can I pay in cash"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and AMEX",
+        "We accept most major credit cards"
+      ]
+    },
+    {
+      "tag": "opentoday",
+      "patterns": [
+        "Are you open today?",
+        "When do you open today?",
+        "What are your hours today?"
+      ],
+      "responses": [
+        "We're open every day from 9am-9pm",
+        "Our hours are 9am-9pm every day"
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "what do you guys rent?",
+        "What are my options",
+        "What transports can i get here"
+      ],
+      "responses": [
+        "we rent cars and bikes",
+        "we have huge availability of cars and bikes"
+      ]
+    },
+    {
+      "tag": "rental",
+      "patterns": [
+        "What rental policy is followed here",
+        "how do you guys charge",
+        "How does this work?",
+        "What should I do if I damage the car?",
+        "What should I do if I get in an accident?",
+        "What should I do if I receive a fine ticket for parking violation?",
+        "Are there any restrictions on mileage when using a rental car?",
+        "Can my pet ride in the car?"
+      ],
+      "responses": [
+        "We charge both way by days and by distance",
+        "We have two ways of rental policy, days or distance travelled",
+        "In the event that the customer causes an accident or defacement to the vehicle during the rental period, the user shall be required to pay the non-operation charge (NOC) as partial compensation for the loss of earnings incurred for repairs or cleaning, regardless of the degree of damage or the length of time required for repairs/cleaning. The non-operation charge (NOC) is different from the deductible (paid by the user) in the insurance and compensation system, which is applied in the event of accidents. Please note that this sum is to be paid even if you are subscribed to the Safety Package.",
+        "Please follow the procedure below if you get involved in an accident: (1)Move the vehicle to a safe location to prevent further accidents. (2) Assist all injured parties. (3) Report the accident to the police. (4) Get the details of the other party. (5) Contact the Global Customer Desk*. (6) Do not negotiate a private settlement on the spot. Private settlements will invalidate the insurance, which will require the user to pay the entire cost.",
+        "If you find a notice of illegal parking is attached on the vehicle windshield, you MUST complete the payment of the fine to the jurisdictional police. Upon returning the vehicle, please submit the traffic violation ticket along with the payment note and the receipt of the fine with the payment date stamp to our staff. If you fail to present Notice of Traffic Violation and Payment Slip & Receipt upon return, JPY 30,000 for parking violation fee will be charged.",
+        "No. There are no mileage restrictions or additional fees.",
+        "Yes. Apply by telephone if you intend to travel with a pet. Please make sure to mention that you will be traveling with a pet when making a reservation (vehicle models that can carry pets differ among rental stations, so online applications will not be accepted). We may refuse to rent out a vehicle even if you have a reservation, so please mention this in advance."
+      ]
+    },
+    {
+      "tag": "bytime",
+      "patterns": [
+        "Time policy seems interesting",
+        "What are your time policy",
+        "I am curious about days policy",
+        "I think, i will save more on days policy"
+      ],
+      "responses": [
+        "We charge Rs 500 per day",
+        "As you wish, we rent at Rs 500 per day"
+      ]
+    },
+    {
+      "tag": "bydistance",
+      "patterns": [
+        "I will prefer by distance",
+        "What are your distance policy",
+        "How much you charge distance wise"
+      ],
+      "responses": [
+        "We charge Rs 200 for per 10 k.m",
+        "Rs 200 per 10 k.m, isnt it cheap?"
+      ]
+    },
+    {
+      "tag": "today",
+      "patterns": [
+        "today",
+        "how to rent",
+        "Can i rent today",
+        "what is renting process"
+      ],
+      "responses": [
+        "For rentals today please call 1-800-carbike",
+        "Same-day rentals please call 1-800-carbike"
+      ]
+    },
+    {
+      "tag": "requirements",
+      "patterns": [
+        "What do I need to rent a car?",
+        "What type of driver's license do I need to drive in Japan?",
+        "Can anyone besides the reservation applicant drive the car?",
+        "Can beginner drivers (driving with a driver’s license issued less than one year ago) also rent a car?",
+        "Can elderly people also rent cars?"
+      ],
+      "responses": [
+        "Each person who intends to drive must bring a valid driver's license to drive in Japan, passport, and a valid means of payment (generally via credit card). All of these items must be submitted on the day the car will be picked up. Kindly pay with an affiliated credit card. If you wish to pay in cash, you must also submit an item of identification (copies are acceptable) in addition to your driver's license.",
+        "You will need a valid International Driving Permit issued by a competent government institution that conforms to the format specified by the Geneva Convention on Road Traffic 1949.",
+        "Yes; however, each person who intends to drive the car must submit a valid driver’s license on the day the car will be picked up. If it is not possible for all drivers to be present on the day of pick-up, a copy of their driver’s license (both sides) and passport must be prepared in advance and submitted.",
+        "Yes. No restrictions are placed on the date of issuance of the driver’s license. We have a large-scale compensation system that beginner drivers can use to rent a vehicle without worries. People with little confidence in their driving skills are also welcome to use our services.",
+        "Yes. No age restrictions are in place. Anybody with a valid driver’s license can rent a vehicle."
+      ]
+    },
+    {
+      "tag": "reservations",
+      "patterns": [
+        "Will there be a problem if the person who made the reservation is different from the one who will drive the car?",
+        "How many days in advance can a reservation be made?",
+        "Can I rent a car without a reservation?",
+        "Can I cancel my reservation?",
+        "Can I make changes to my reservation?",
+        "Do I have to pay a cancellation fee if I cancel my reservation?",
+        "For how many days can I reserve a rental car?",
+        "Can I request an AT (automatic) or MT (manual) vehicle?",
+        "Can I get a non-smoking car?",
+        "What happens if I arrive late when picking up the car?"
+      ],
+      "responses": [
+        "No. Persons who will not drive the car can also make the reservation; however, they need to confirm first the driver of the vehicle before making the reservation.",
+        "Vehicles can be reserved six months in advance. Reservations can also be made 30 minutes* prior to pick-up if a vehicle is required at the last minute.",
+        "Yes, as long as a vehicle is available in the station; however, we recommend making a reservation because no vehicle may be available during busy periods.",
+        "Yes, reservations can be cancelled. Please contact us as soon as possible if you wish to cancel your reservation. The reservation number issued when you made the reservation and the email address you registered at the time of reservation are required to cancel or make changes to your reservation.",
+        "Yes. The reservation number issued when you made the reservation and the email address you registered at the time of reservation are required to make changes to your reservation.",
+        "A reservation cancellation fee pre-determined by the company may apply if you cancel your reservation. No fee shall apply if the cancellation is made at least seven days prior to the date of pick-up. The cancellation fee shall apply for those made six days or less prior to the date of pick-up.",
+        "We accept reservations for a rental period of one (1) month at most.",
+        "No. The transmission type cannot be selected. Only AT (automatic) vehicles are available.",
+        "Yes. All Times Car RENTAL vehicles are non-smoking.",
+        "Please make sure to contact the concerned station if you are going to arrive later than the specified pick-up time. Failure to contact the station will cause the reservation to be cancelled an hour after the scheduled pick-up time. The vehicle may also not be available anymore at the time of pick-up."
+      ]
+    },
+    {
+      "tag": "pickup",
+      "patterns": [
+        "What are the required procedures for picking up the car?",
+        "What do I need to bring when picking up the car?",
+        "Can I pick up or return the car outside of opening hours?"
+      ],
+      "responses": [
+        "You will be required to present your driver’s license (of all drivers) and passport for verification purposes and to sign the Rental Agreement when you pick up the vehicle. Once completed, please pay the sum determined by the contents of the agreement. (Payment must be settled when the vehicle is picked up.)",
+        "Each person who intends to drive must bring a valid driver’s license to drive in Japan, passport, and a valid method of payment (generally via credit card). These are to be submitted together with any discount cards you may have. Kindly pay with an affiliated credit card. If you wish to pay in cash, you must also submit an item of identification (copies are acceptable) in addition to your driver’s license.",
+        "No. Please pick up and return the vehicle within the opening hours of the concerned station."
+      ]
+    },
+    {
+      "tag": "returnpolicy",
+      "patterns": [
+        "What do I need to keep in mind when returning the car?",
+        "Can I return the car to a different rental station?",
+        "Do you offer a one-way rental service?",
+        "What is the return policy?"
+      ],
+      "responses": [
+        "Please make sure that you have not left anything inside the vehicle. We cannot be held responsible for any forgotten items or lost property.",
+        "Yes. We provide a one-way service that allows return of the vehicle to a different rental station. Please note that a one-way fee may be charged depending on the distance between the pick-up and return rental stations.",
+        "Yes. This service is available as long as the pick-up and return stations are both operated by Times Car RENTAL. Please contact the rental station where the vehicle is to be picked up for details on the one-way fee. A price simulation may be run to check the amount of the one-way fee."
+      ]
+    },
+    {
+      "tag": "insurance",
+      "patterns": [
+        "Do I need to get the Safety Package or the Super Safety Package?",
+        "What happens if I get in an accident and am not subscribed to the Safety Package?",
+        "Does compensation apply to all drivers?"
+      ],
+      "responses": [
+        "No. Subscribing to these packages is not mandatory. A package can be selected when making a reservation or when picking up the vehicle.",
+        "All of our rental vehicles are covered for unlimited body injury compensation (Deductible: JPY 50,000); unlimited property damage compensation (Deductible: JPY 50,000); personal injury compensation up to JPY 30,000,000; and market-value vehicle damage compensation (Deductible: JPY 50,000 to JPY 100,000). These are included in the rental fee. In the event of an accident, the user will be required to pay the deductible. A non-operation charge (partial compensation for loss of earnings) will be imposed as well.",
+        "Everyone registered as a driver at the time the vehicle is picked up will be compensated in the same way as the applicant."
+      ]
+    },
+    {"tag": "brands",
+      "patterns": ["what brands do you have?", "what brands do you deal with?", "what are the avaliable brands?", "what multiple brands do you have?", "available brands?","any brands available" , "show the list of brands" , "brands list" , "enlist brands"],
+      "responses": ["We deal in Honda, Toyota, Suzuki , KIA , Hyundai"]
+    },
+    {
+      "tag": "honda",
+      "patterns" :[ "what are avaliable cars of honda?" , "avaliable cars of honda?" , "is honda civic available?" , "honda civic?" , "list of honda cars?" , "what is in honda?"],
+      "responses":["yes we have civic , city , vezzel, fit , accord"] 
+    },
+    {
+      "tag": "toyota",
+      "patterns" :[ "what are avaliable cars of toyota?" , "avaliable cars of toyota?" , "is toyota available?" , "toyota?" , "list of toyota cars?" , "what is in toyota?"],
+      "responses":["yes we have vego, corolla , aqua , passo , prius , vitz"]
+    },
+    {
+      "tag": "suzuki",
+      "patterns" :[ "what are avaliable cars of suzuki?" , "avaliable cars of suzuki?" , "is suzuki available?" , "suzuki?" , "list of suzuki cars?" , "what is in suzuki?"],
+      "responses":["yes we have swift , alto , mehran"]
+    },
+    {
+      "tag": "KIA",
+      "patterns" :[ "what are avaliable cars of KIA?" , "avaliable cars of KIA?" , "is KIA available?" , "KIA?" , "list of KIA cars?" , "what is in KIA?"],
+      "responses":["yes we have sportage , stonic "]
+    },
+    {
+      "tag": "Hyundai",
+      "patterns" :[ "what are avaliable cars of Hyundai?" , "avaliable cars of Hyundai?" , "is Hyundai available?" , "Hyundai?" , "list of Hyundai cars?" , "what is in Hyundai?"],
+      "responses":["yes we have elentra , sonata , tucson"]
+    },
+    {"tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day","Hola, amigo"],
+      "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"]
+      
+    }
+  ]
+}
